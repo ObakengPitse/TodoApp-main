@@ -42,3 +42,45 @@ form {
   background: #d88771;
   color: white;
 }
+
+.todoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoList {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+.deleteBtn,
+.completedBtn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.completedBtn {
+  background: rgb(55, 203, 55);
+}
+
+.todoItem {
+  padding: 0rem 0.5rem;
+}
