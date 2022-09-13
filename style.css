@@ -89,3 +89,7 @@ form {
 .fa-check {
   pointer-events: none;
 }
+
+.completed {
+  text-decoration: line-through;
+}
